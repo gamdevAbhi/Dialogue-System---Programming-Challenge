@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7020ce2bf56b41e44a3ff7c3b7f77ca8, type: 3}
+  m_Name: 01_welcome
+  m_EditorClassIdentifier: 
+  characterName: NPC
+  text: Hello, welcome to the sample dialogue system!
+  nextDialogueObject: {fileID: 11400000, guid: 169c5344ef7b9e043ad44eb221190e6e, type: 2}

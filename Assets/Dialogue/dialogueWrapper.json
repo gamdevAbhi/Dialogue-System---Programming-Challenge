@@ -1,0 +1,40 @@
+{
+    "dialogueWrappers": [
+        {
+            "id": 0,
+            "characterName": "NPC",
+            "text": "Hello, welcome to the sample dialogue system!",
+            "options": [],
+            "nextWrapperID": [
+                1
+            ]
+        },
+        {
+            "id": 1,
+            "characterName": "NPC",
+            "text": "So, how are you?",
+            "options": [
+                "I am fine.",
+                "I am not fine"
+            ],
+            "nextWrapperID": [
+                2,
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "characterName": "NPC",
+            "text": "Nice to hear it.",
+            "options": [],
+            "nextWrapperID": []
+        },
+        {
+            "id": 3,
+            "characterName": "NPC",
+            "text": "Oh! don't worry everyhting will be fine.",
+            "options": [],
+            "nextWrapperID": []
+        }
+    ]
+}
